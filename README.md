@@ -1,3 +1,3 @@
-Nie ste môj typ
+Nie ste mÃ´j typ
 ===============
-Sada èlánkov o typovom systéme.
+Sada ÄlÃ¡nkov o typovom systÃ©me.
