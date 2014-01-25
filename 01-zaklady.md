@@ -96,7 +96,9 @@ ktorá vždy vráti to, čo dostane.
 Výrazy na tomto riadku sú tri:
 
 (i) "id 42", po vyhodnotení (v jednom kroku) tohto výrazu dostaneme $42$, čo je funkcia (nulárna);
+
 (ii) podvýraz výrazu (i): "id", vyhodnotí sa okamžite (bez akýchkoľvek krokov) ako unárna funkcia identity;
+
 (iii) taktiež podvýraz výrazu (i): "42", okamžite, nulárna funkcia.
 
 Výraz "id 42" je telo funkcie
