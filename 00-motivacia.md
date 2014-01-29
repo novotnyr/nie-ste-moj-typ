@@ -4,7 +4,7 @@ Typovať či netypovať? To je tá otázka!
 TODO: Alef0 úvodný obkec, príp. úvod do celého seriálu?
 
 No, nie až tak úplne *tá* otázka
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------
 
 Na rovinu si ujasnime jednu vec: ak sa máme baviť o motivácii typovať a
 kontrolovať typy, musíme v konečnom dôsledku otázku skonkretizovať na skúmanie motivácie _staticky_ typovať. Jazyky ako napr. JavaScript, ktoré sa na prvý
@@ -38,7 +38,7 @@ až do konca behu programu. Takýto prístup si vyslovene pýta, aby priradenie
 typov a ich kontrola prebehla jednorazovo, staticky.
 
 Trošku matematiky a histórie (nie nutne v tomto poradí)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------------
 
 Nesmieme ale takisto zabúdať, že Haskell je jazyk, ktorý v očiach mnohých má
 k matematickému formalizmu bližšie, ako sa na riadny programovací jazyk patrí. 
