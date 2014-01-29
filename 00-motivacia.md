@@ -58,7 +58,7 @@ a to všetko popisuje rovnakú sadu prvkov.
 Tvorba množín pomocou charakteristickej vlastnosti sa zdá byť prirodzená, ale
 skrýva nejedno zákerné prekvapenie. Pán Bertrand Russell začiatkom 20. storočia objavil paradox, ktorý elegantne
 poukazuje na hrôzy spôsobené nedostatočne obmedzenou voľnosťou tvorby množín.
-Veď vezmime si podľa jeho príkladu množinu *R* = {*x* | *x* ∉ *x*}, teda
+Veď vezmime si podľa jeho príkladu množinu *R* = {*X* | *X* ∉ *X*}, teda
 množinu takých množín, ktoré neobsahujú samé seba. Nič na prvý pohľad
 nepoukazuje na to, že by taká množina mala byť nejak divná: jednoducho sme
 charakteristickou podmienkou vymedzili, ktoré prvky nej patria.
