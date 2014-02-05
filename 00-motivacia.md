@@ -129,14 +129,14 @@ zmysle tiež prvkom každého typu. Ale to už trošku predbiehame...)
 
 Snáď už teraz teda máme akési uchopenie onej hierarchie, ktorá je typom
 vlastná. Vo všeobecnosti typy úrovne *n* sú také množiny, ktoré obsahujú
-výlučne typy úrovne *n-1* za svoje prvky. Ako ale tieto typy, t. j. hierarchiou zviazané
+výlučne typy úrovne *n*-1 za svoje prvky. Ako ale tieto typy, t. j. hierarchiou zviazané
 množiny, adresujú problém Russellovho paradoxu? Celkom jednoducho: ak
 uvažujeme typy ako jediné možné množiny, tak pýtať sa, či množina obsahuje
 samú seba, je jednoducho nezmyselné, lebo samotná množina je vždy o úroveň
 vyššie ako prvky, ktoré obsahuje (a teda nemôže samú seba obsahovať).
 
 Food for thought
-================
+----------------
 * Názorne vysvetlené pojmy statického a dynamického typovania (a ešte ďalej):
   https://pythonconquerstheuniverse.wordpress.com/2009/10/03/static-vs-dynamic-typing-of-programming-languages/
 * Trošičočku viac teoreticky o súčasnom stave diskusie o typových systémoch:
