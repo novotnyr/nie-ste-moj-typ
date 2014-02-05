@@ -37,6 +37,14 @@ operácie a spol.) a teda každý výraz má zaručene vždy ten istý typ od za
 až do konca behu programu. Takýto prístup si vyslovene pýta, aby priradenie
 typov a ich kontrola prebehla jednorazovo, staticky.
 
+[![Haskell](https://sslimgs.xkcd.com/comics/haskell.png)](https://xkcd.com/1312/)
+
+(Ešte upozornime, že statické typovanie nie je to isté ako explicitné
+typovanie, ktoré znamená, že programátor sám musí špecifikovať, akého typu je
+tá-ktorá premenná, funkcia a pod. Ako uvidíme práve v Haskelli, staticky sa dá typovať aj bez
+tohto explicitného typovania -- Haskell sám si totiž vie odvodiť
+najvšeobecnejšie typy funkcií, ktoré v programe definujeme.)
+
 Trošku matematiky a histórie (nie nutne v tomto poradí)
 -------------------------------------------------------
 
@@ -120,8 +128,8 @@ Toto približne odpovedá hodnote `undefined` z Haskellu, ktorá je v tomto
 zmysle tiež prvkom každého typu. Ale to už trošku predbiehame...)
 
 Snáď už teraz teda máme akési uchopenie onej hierarchie, ktorá je typom
-vlastná. Vo všeobecnosti typy úrovne *N* sú také množiny, ktoré obsahujú
-výlučne typy úrovne *N-1* za svoje prvky. Ako ale tieto typy, t. j. hierarchiou zviazané
+vlastná. Vo všeobecnosti typy úrovne *n* sú také množiny, ktoré obsahujú
+výlučne typy úrovne *n-1* za svoje prvky. Ako ale tieto typy, t. j. hierarchiou zviazané
 množiny, adresujú problém Russellovho paradoxu? Celkom jednoducho: ak
 uvažujeme typy ako jediné možné množiny, tak pýtať sa, či množina obsahuje
 samú seba, je jednoducho nezmyselné, lebo samotná množina je vždy o úroveň
